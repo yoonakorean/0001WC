@@ -177,14 +177,14 @@
       const weekdays = ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"];
       const weekday = weekdays[now.getDay()];
 
-      const formURL = "https://docs.google.com/forms/d/e/1FAIpQLSd-Zd-yo_CYumklAb0uQ7gbFK3wKLakvi1-xJw1R7K5uzkpcQ/formResponse";
+      const formURL = "https://docs.google.com/forms/d/e/1FAIpQLSd8KhDu_lq6g4aPzkLaNYUUVG9P0E9cRT1R2WVDIkkfFh7WxA/formResponse";
 
       const formData = new FormData();
-      formData.append("entry.1141644943", nickname);
-      formData.append("entry.1968231757", score);
-      formData.append("entry.483952061", time);
-      formData.append("entry.1985980257", weekday);
-      formData.append("entry.1128191043", gameTitle);
+      formData.append("entry.1082970818", nickname);
+      formData.append("entry.851626887", score);
+      formData.append("entry.498226528", time);
+      formData.append("entry.532888754", weekday);
+      formData.append("entry.1110600272", gameTitle);
 
       fetch(formURL, {
         method: "POST",
